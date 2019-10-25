@@ -1,0 +1,15 @@
+{
+  "name": "mock-json",
+  "version": "1.0.0",
+  "description": "mocking the data for local development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"mock:api": "json-server --watch api/db.json --port 4000"
+  },
+  "author": "rayees",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}

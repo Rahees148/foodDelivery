@@ -1,0 +1,102 @@
+{
+  "mostpopular": [
+    {
+      "id": 1,
+      "dishName": "The South's Best Fried Chicken",
+      "dishDescription": "Fried Chicken with Cheese",
+      "image": "../../images/kari-360x210.jpg",
+      "price": "250",
+      "totalReview": "198",
+      "ratings": "4.5",
+      "distance": "1240M",
+      "restuarentInfo": {
+        "name": "Chicken Restaurent",
+        "address": "68 5th Cross",
+        "likes": "48",
+        "logo": ""
+      }
+    },
+    {
+      "id": 2,
+      "dishName": "The South's Best Fried Chicken",
+      "dishDescription": "Fried Chicken with Cheese",
+      "image": "../../images/chicken-360x210.jpg",
+      "price": "250",
+      "totalReview": "198",
+      "ratings": "4.5",
+      "distance": "1240M",
+      "restuarentInfo": {
+        "name": "Chicken Restaurent",
+        "address": "68 5th Cross",
+        "likes": "48",
+        "logo": ""
+      }
+    },
+    {
+      "id": 3,
+      "dishName": "The South's Best Fried Chicken",
+      "dishDescription": "Fried Chicken with Cheese",
+      "image": "../../images/vegetarian-360x210.jpg",
+      "price": "250",
+      "totalReview": "198",
+      "ratings": "4.5",
+      "distance": "1240M",
+      "restuarentInfo": {
+        "name": "Chicken Restaurent",
+        "address": "68 5th Cross",
+        "likes": "48",
+        "logo": ""
+      }
+    }
+  ],
+  "featuredRestaurants": [
+    {
+      "id": 1,
+      "name": "Central caffe pizzeria",
+      "description": "Burgers, American, Sandwiches, Fast Food, BBQ, Breakfast",
+      "address": "68 5th Avenue New York",
+      "avgRratings": "5",
+      "totalRating": "19",
+      "Logo": "",
+      "category": [
+        "Pasta",
+        "Beverages",
+        "Burger",
+        "Indian",
+        "Pizza"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Central caffe pizzeria",
+      "description": "Burgers, American, Sandwiches, Fast Food, BBQ, Breakfast",
+      "address": "68 5th Avenue New York",
+      "avgRratings": "5",
+      "totalRating": "19",
+      "Logo": "",
+      "category": [
+        "Pasta",
+        "Beverages",
+        "Burger",
+        "Indian",
+        "Pizza"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Central caffe pizzeria",
+      "description": "Burgers, American, Sandwiches, Fast Food, BBQ, Breakfast",
+      "address": "68 5th Avenue New York",
+      "avgRratings": "5",
+      "totalRating": "19",
+      "Logo": "",
+      "category": [
+        "Pasta",
+        "Beverages",
+        "Burger",
+        "Indian",
+        "Pizza"
+      ]
+    }
+  ]
+}
