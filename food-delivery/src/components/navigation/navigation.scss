@@ -1,0 +1,15 @@
+.main-nav{
+    width: auto;
+    float: right;
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        li{
+            margin: 0 10px;
+        }
+        a{
+            color: #fff;
+        }
+    }
+}

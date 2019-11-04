@@ -1,0 +1,13 @@
+.location{
+    background-color: #fcfbf9;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    color: #414551;
+    font-weight: 600;
+    text-align: center;
+    padding: 21px 0;
+    .userLocation, a{
+        padding: 0 5px;
+        color: #ff5200;
+    }
+}
