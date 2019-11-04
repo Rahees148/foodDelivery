@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { config } from '../../Constants';
 
+import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+
 import RestaurantListCard from '../restaurantListCard/restaurantListCard';
 
 
@@ -42,13 +44,17 @@ class FeaturedRestaurants extends Component {
     }
     else{
         return (
+          <section className="featuredRestaurant">
             <Container>
-                <div className="mostPopular-container" >
+                <div className="featuredRestaurant-container" >
                     <h2>Featured Restaurant In Your Area</h2>
-                    <p>The easiest way to your favourite Restaurant</p>
-                    <RestaurantListCard items={featuredRestaurants} />
+                    <p className="subHead">The easiest way to your favourite Restaurant</p>
+                    <Grid container justify="center" spacing={4}>
+                      <RestaurantListCard items={featuredRestaurants} />
+                    </Grid>
                 </div> 
             </Container>
+          </section>
         );
     }
   }

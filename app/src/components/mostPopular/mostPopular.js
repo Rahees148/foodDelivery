@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { config } from '../../Constants';
 
+import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import FoodListCard from '../foodListCard/foodListCard';
 
@@ -46,7 +47,9 @@ class MostPopular extends Component {
                 <div className="mostPopular-container" >
                     <h2>Popular This Month In Your City</h2>
                     <p>The easiest way to your favourite food</p>
-                    <FoodListCard items={mostPopularItem} />
+                    <Grid container justify="center" spacing={3}>
+                      <FoodListCard items={mostPopularItem} />
+                    </Grid>
                 </div> 
             </Container>
         );

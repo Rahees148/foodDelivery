@@ -97,6 +97,22 @@
         "Indian",
         "Pizza"
       ]
+    },
+	{
+      "id": 3,
+      "name": "Central caffe pizzeria",
+      "description": "Burgers, American, Sandwiches, Fast Food, BBQ, Breakfast",
+      "address": "68 5th Avenue New York",
+      "avgRratings": "5",
+      "totalRating": "19",
+      "Logo": "",
+      "category": [
+        "Pasta",
+        "Beverages",
+        "Burger",
+        "Indian",
+        "Pizza"
+      ]
     }
   ]
 }

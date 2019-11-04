@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
@@ -25,8 +25,7 @@ class FoodListCard extends Component {
   render() {
     const { items } = this.state;
     return (
-        
-        <Grid container justify="center" spacing={3}>
+            <Fragment>
              {items.map(item => (
                 <Grid key={item.id} item xs={12} md={4}>
                     <Card className="item-wrapper" >
@@ -54,7 +53,7 @@ class FoodListCard extends Component {
                         </Grid>
                
           ))}
-       </Grid>
+          </Fragment>
         
     );
   }

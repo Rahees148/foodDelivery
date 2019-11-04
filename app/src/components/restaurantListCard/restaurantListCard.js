@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Typography from '@material-ui/core/Typography';
 
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
 
 import './restaurantListCard.scss';
 class RestaurantListCard extends Component {
@@ -21,14 +20,28 @@ class RestaurantListCard extends Component {
     const { items } = this.state;
     return (
         
-        <Grid container justify="center" spacing={2}>
+        <Fragment>
              {items.map(item => (
-                <Grid key={item.id} item xs={12} md={6}>
-                    {item.name}
+                <Grid key={item.id} item xs={12} md={6} >
+                    <div className="restaurantList">
+                        <div className="rest-thumbnail">
+                                <div className="image"></div>
+                        </div>
+                        <div className="rest-info"> 
+                            <Typography variant="h5" color="textSecondary" component="h5">
+                                {item.name}
+                            </Typography>
+                            <Typography variant="body1" color="textSecondary" component="p">
+                                {item.description}
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                {item.address}
+                            </Typography>
+                        </div>  
+                    </div>
                 </Grid>
           ))}
-       </Grid>
-        
+        </Fragment>
     );
   }
 }
